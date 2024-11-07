@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ES2020", // Define el estándar de JavaScript al que se compilará el código
+      "module": "commonjs", // Define el sistema de módulos a utilizar
+      "moduleResolution": "node", // Define cómo se resuelven los módulos
+      "esModuleInterop": true, // Habilita la interoperabilidad entre módulos CommonJS y ES6
+      "skipLibCheck": true, // Omite la verificación de tipos en archivos de declaración
+      "strict": true, // Habilita todas las verificaciones estrictas de TypeScript
+      "outDir": "./dist", // Directorio de salida para los archivos compilados
+      "baseUrl": ".", // Base URL para resolver rutas
+      "paths": {
+        "*": ["node_modules/*", "src/types/*"]
+      }
+    },
+    "include": ["server/src/**/*.ts", "client/src/**/*.ts"], // Archivos a incluir en la compilación
+    "exclude": ["node_modules"] // Archivos a excluir de la compilación
+  }
