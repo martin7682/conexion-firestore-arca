@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.ts",
   "license": "MIT",
+  "type": "module",
+  
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "22.8.7",
